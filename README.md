@@ -16,7 +16,7 @@ minikube tunnel --profile knative
 
 minikube profile list
 
-check knative
+# check knative
 
 kubectl get namespaces | grep knative
 

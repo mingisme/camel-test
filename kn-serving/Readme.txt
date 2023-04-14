@@ -28,4 +28,7 @@ kn service update hello2 \
 
 kn revisions list
 
+kn service update hello2 \
+--traffic hello2-00001=0 \
+--traffic @latest=100
 
